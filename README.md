@@ -24,7 +24,7 @@ El análisis se basó en un único dataset de logs de eventos de usuario:
     * `numpy`: Para operaciones numéricas.
     * `matplotlib` / `seaborn`: Para la creación de histogramas, embudos de conversión y gráficos comparativos.
     * `scipy.stats`: Fundamental para realizar pruebas de significancia estadística (ej. prueba de Z para proporciones).
-* **Jupyter Notebook:** Entorno de desarrollo interactivo para el análisis y la presentación organizada de los resultados.
+* **Jupyter Notebook - VSCode:** Entorno de desarrollo interactivo para el análisis y la presentación organizada de los resultados.
 
 ## Metodología y Análisis
 ### Parte 1: Estudio del Embudo de Eventos
@@ -44,12 +44,7 @@ El análisis se basó en un único dataset de logs de eventos de usuario:
     * Comparación del grupo de prueba (248) con los grupos de control combinados (246 + 247) para obtener una visión general.
     * **Nivel de Significancia (Alpha):** Discusión sobre el ajuste del nivel de significancia para múltiples pruebas de hipótesis (ej., corrección de Bonferroni si se consideró).
 
-## Resultados Clave y Decisión Final
-*(Adapta esta sección con tus hallazgos reales y la decisión final)*
-* El análisis del embudo reveló que la mayor pérdida de usuarios ocurre en la transición de [Etapa X] a [Etapa Y], indicando un área crítica para optimización de UX.
-* La validación del test A/A confirmó que los grupos de control (246 y 247) no mostraron diferencias estadísticamente significativas, lo que garantiza la fiabilidad de la prueba A/B.
-* En el test A/B, se encontró que [el nuevo diseño de fuentes (Grupo 248) **no tuvo un impacto estadísticamente significativo** en las métricas clave de conversión
-*
+
 <img width="1058" height="153" alt="image" src="https://github.com/user-attachments/assets/be0b66ad-2547-48d2-9e96-9b69fe5802d9" />
 
 <img width="1330" height="556" alt="image" src="https://github.com/user-attachments/assets/2a96cf7f-9046-406f-a173-68a80ecae8ba" />
